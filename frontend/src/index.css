@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  margin-left: 5rem;
+  padding: 10px 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
